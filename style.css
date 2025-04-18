@@ -66,6 +66,7 @@
   .level-2-wrapper {
     position: relative;
     display: grid;
+    width: 100%;
     grid-template-columns: repeat(5, 1fr);
   }
 
@@ -101,4 +102,20 @@
     width: 2px;
     height: 23px;
     background: var(--black);
-  }  
+  } 
+
+  .level-2{
+    width: 70%;
+    margin: 0 auto  0px;
+    background: var(--level-2);
+  }
+
+  .level-2::before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 2px;
+    height: 20px;
+    background: var(--black);
+  }

@@ -59,7 +59,7 @@
     left: 50%;
     transform: translateX(-100%);
     width: 2px;
-    height: 29px;
+    height: 18px;
     background: var(--black);
   }
 
@@ -67,7 +67,7 @@
     position: relative;
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
   }
 
   .level-2-wrapper::before{
@@ -93,14 +93,14 @@
   .level-2-wrapper li {
     position: relative;
   }
-  .level-2-wrapper > li::before {
+  .level-2-wrapper > li::before { /*line before*/
     content: "";
     position: absolute;
-    bottom: 100%;
+    bottom: 80%;
     left: 49.7%;
     transform: translateX(-50%);
     width: 2px;
-    height: 23px;
+    height: 35px;
     background: var(--black);
   } 
 
@@ -115,6 +115,7 @@
     position: absolute;
     top: 100%;
     left: 50%;
+    transform: translateX(-50%);
     width: 2px;
     height: 20px;
     background: var(--black);

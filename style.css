@@ -1,6 +1,6 @@
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: #e7f0ec;
+  background: linear-gradient(135deg, #e7f0ec 25%, #f3f8f6 100%);
   margin: 0;
   padding: 20px;
   overflow-x: auto;
@@ -22,7 +22,7 @@ h1 {
   align-items: center;
   gap: 20px;
   position: relative;
-  transform: scale(0.9);
+  transform: scale(1.04);
   transform-origin: top center;
   width: max-content;
   margin: 0 auto;

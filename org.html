@@ -1,38 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Organizational Structure</title>
 </head>
-<body>
-    <div class="container">
-        <h1 class="level-1 rectangle">Dean</h1>
-        <h2 class="level-1_2 rectangle">Secretary</h2>
 
-        <ol class="level-2-wrapper">
-            <li>
-                <h3 class="level-2 rectangle">PH 1</h3>
-            </li>
-            <li>
-                <h3 class="level-2 rectangle">PH 2</h3>
-            </li>
-            <li>
-                <h3 class="level-2 rectangle">PH 3</h3>
-            </li>
-            <li>
-                <h3 class="level-2 rectangle">PH 4</h3>
-            </li>
-            <li>
-                <h3 class="level-2 rectangle">PH 5</h3>
-            </li>
-            <li>
-                <h3 class="level-2 rectangle">Coordinator</h3>
-            </li>
-        </ol>
-        
+<body>
+    <h1>Organizational Structure</h1>
+    <div class="org-container">
+
+        <!-- Dean -->
+        <div class="level">
+            <div class="member">
+                <img src="Images/Dean Wilma.png" alt="Dean">
+                <div class="name">Dr. Wilma R. Lomangaya</div>
+                <div class="position">Dean</div>
+                <div class="bio">Leads academic programs, fosters scientific research, and supports faculty and students
+                    across science disciplines.</div>
+            </div>
+        </div>
+
+        <!-- Line to Secretary -->
+        <div class="line-vertical"></div>
+
+        <!-- Secretary -->
+        <div class="level">
+            <div class="member">
+                <img src="Images/Secretary Rixell.png" alt="Secretary">
+                <div class="name">Ms. Rixell J. Lauraya</div>
+                <div class="position">Secretary</div>
+                <div class="bio">Supports the Dean through communication, scheduling, and office coordination within the
+                    College of Science.</div>
+            </div>
+        </div>
+
+        <!-- Line to Program Heads and Coordinator -->
+        <div class="line-vertical"></div>
+        <div class="line-horizontal"></div>
+
+        <!-- Program Heads and Coordinator -->
+        <div class="level-heads">
+            <div class="member">
+                <img src="Images/Biology/Beunviaje, Alana.png">
+                <div class="name">Alana R. Buenviaje</div>
+                <div class="position">Program Head<br>BS Biology</div>
+                <div class="bio">Guides the BS Biology program through curriculum planning, faculty support, and student
+                    academic development.</div>
+            </div>
+            <div class="member">
+                <img src="Images/HumServ/Bautista, Florencia.png">
+                <div class="name">Dr. Florencia V. Bautista</div>
+                <div class="position">Program Head<br>BS Human Services</div>
+                <div class="bio">Leads the Human Services program by overseeing curriculum design, mentoring faculty,
+                    and fostering student engagement in community-focused disciplines.</div>
+            </div>
+            <div class="member">
+                <img src="Images/Psychology/Herrera, Mannellie.png">
+                <div class="name">Mannette Liwanag T. Herrera</div>
+                <div class="position">Program Head<br>BS Psychology</div>
+                <div class="bio">Directs the Psychology program by advancing course development, supporting faculty
+                    initiatives, and enhancing student learning in behavioral sciences.</div>
+            </div>
+            <div class="member"><img src="Images/Mathematics/Binaluyo Jose.png">
+                <div class="name">Dr. Jose E. Binalayo Jr.</div>
+                <div class="position">Program Head<br>BS Mathematics</div>
+                <div class="bio">Manages the Mathematics program by strengthening academic frameworks, guiding
+                    instructional quality, and promoting analytical skills among students.
+                </div>
+
+            </div>
+            <div class="member">
+                <img src="Images/Computer Science/Francisco Michael.png">
+                <div class="name">Michael B. Francisco</div>
+                <div class="position">Program Head<br>BS Computer Science</div>
+                <div class="bio">Oversees the Computer Science program through technical curriculum development, faculty
+                    collaboration, and innovation in computing education.</div>
+            </div>
+            <div class="member">
+                <img src="Images/GenEd/ML Endozo.png">
+                <div class="name">Maria Lorena A. Endozo</div>
+                <div class="position">Coordinator<br>General Education</div>
+                <div class="bio">Coordinates General Education courses by aligning interdisciplinary subjects, assisting
+                    faculty, and ensuring broad academic foundations for all students.</div>
+            </div>
+        </div>
+
+        <!-- Collapsible Staff Sections -->
+        <br>
+        <details>
+            <summary>Biology Instructors</summary>
+            <div class="level">
+                <div class="member">
+                    <img src="Images/Biology/Tia Eugene.png">
+                    <div class="name">Eugene F. Tia</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio">Guides students in cellular and molecular biology, with a focus on laboratory skills and scientific research fundamentals.</div>
+                </div>
+                <div class="member"><img src="Images/Biology/Dele Cruz Nenita.png">
+                    <div class="name">Nenita L. Dela Cruz</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio">Supports instruction in ecological and environmental biology, promoting student fieldwork and sustainability awareness.</div>
+                </div>
+                <div class="member"><img src="Images/Biology/Capuz Edmund.png">
+                    <div class="name">Edmund B. Capuz</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio">Teaches anatomy and physiology, helping students build a strong foundation in human biology and life sciences.</div>
+                </div>
+                <div class="member"><img src="Images/Biology/Millare, Cristina.png">
+                    <div class="name">Cristina G. Millare</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio">Specializes in microbiology and public health, encouraging scientific curiosity and community-based biological applications.</div>
+                </div>
+                <div class="member"><img src="images/Biology/Cequeña Rhenz.png">
+                    <div class="name">Rhenz Cedrick M. Cequeña</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio">Handles topics in evolutionary biology and systematics, guiding students through comparative studies and data analysis.</div>
+                </div>
+                <div class="member"><img src="Images/Biology/Palino Jobelle.png">
+                    <div class="name">Jobelle DL. Palino</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio">Provides instruction in genetics and developmental biology, with a commitment to student engagement and critical thinking.</div>
+                </div>
+                <div class="member"><img src="Images/Biology/Gatchalian, Eduardo.png">
+                    <div class="name">Eduardo D. Gatchalian</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio">Assists in biochemistry and lab techniques, supporting students in both theoretical understanding and hands-on experiments.</div>
+                </div>
+                <div class="member"><img src="Images/Biology/Olvida Therence.png">
+                    <div class="name">Therence Louise S. Olvida</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio">Focuses on botany and biodiversity, integrating field activities and local flora studies into the curriculum.</div>
+                </div>
+            </div>
+        </details>
+
+        <details>
+            <summary>Human Services Instructors</summary>
+            <div class="level">
+                <div class="member"><img src="https://via.placeholder.com/100">
+                    <div class="name">Wilhelmina Husion</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio"></div>
+                </div>
+                <div class="member"><img src="https://via.placeholder.com/100">
+                    <div class="name">Dulce San Jose</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio"></div>
+                </div>
+                <div class="member"><img src="https://via.placeholder.com/100">
+                    <div class="name">Wilhelmina Husion</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio"></div>
+                </div>
+                <div class="member"><img src="https://via.placeholder.com/100">
+                    <div class="name">Dulce San Jose</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio"></div>
+                </div>
+                <div class="member"><img src="https://via.placeholder.com/100">
+                    <div class="name">Wilhelmina Husion</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio"></div>
+                </div>
+                <div class="member"><img src="https://via.placeholder.com/100">
+                    <div class="name">Dulce San Jose</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio"></div>
+                </div>
+            </div>
+        </details>
+
+        <details>
+            <summary>Psychology Instructors</summary>
+            <div class="level">
+                <div class="member"><img src="https://via.placeholder.com/100">
+                    <div class="name">Ricardo Alivio</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio"></div>
+                </div>
+                <div class="member"><img src="https://via.placeholder.com/100">
+                    <div class="name">Wilma R. Lomangaya</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio"></div>
+                </div>
+                <div class="member"><img src="https://via.placeholder.com/100">
+                    <div class="name">Ricardo Alivio</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio"></div>
+                </div>
+                <div class="member"><img src="https://via.placeholder.com/100">
+                    <div class="name">Wilma R. Lomangaya</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio"></div>
+                </div>
+                <div class="member"><img src="https://via.placeholder.com/100">
+                    <div class="name">Ricardo Alivio</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio"></div>
+                </div>
+                <div class="member"><img src="https://via.placeholder.com/100">
+                    <div class="name">Wilma R. Lomangaya</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio"></div>
+                </div>
+            </div>
+        </details>
+
+        <details>
+            <summary>Mathematics Instructors</summary>
+            <div class="level">
+                <div class="member"><img src="https://via.placeholder.com/100">
+                    <div class="name">Jackie DL Paiso</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio"></div>
+                </div>
+                <div class="member"><img src="https://via.placeholder.com/100">
+                    <div class="name">Ken Russell Z. Gellano</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio"></div>
+                </div>
+                <div class="member"><img src="https://via.placeholder.com/100">
+                    <div class="name">Jackie DL Paiso</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio"></div>
+                </div>
+                <div class="member"><img src="https://via.placeholder.com/100">
+                    <div class="name">Ken Russell Z. Gellano</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio"></div>
+                </div>
+            </div>
+        </details>
+
+        <details>
+            <summary>Computer Science Instructors</summary>
+            <div class="level">
+                <div class="member"><img src="https://via.placeholder.com/100">
+                    <div class="name">Lindy A. Alajandro</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio"></div>
+                </div>
+                <div class="member"><img src="https://via.placeholder.com/100">
+                    <div class="name">Ma. Cecilia P. San Jose</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio"></div>
+                </div>
+                <div class="member"><img src="https://via.placeholder.com/100">
+                    <div class="name">Lindy A. Alajandro</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio"></div>
+                </div>
+                <div class="member"><img src="https://via.placeholder.com/100">
+                    <div class="name">Ma. Cecilia P. San Jose</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio"></div>
+                </div>
+                <div class="member"><img src="https://via.placeholder.com/100">
+                    <div class="name">Ma. Cecilia P. San Jose</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio"></div>
+                </div>
+            </div>
+        </details>
+
+        <details>
+            <summary>General Education Instructors</summary>
+            <div class="level">
+                <div class="member"><img src="https://via.placeholder.com/100">
+                    <div class="name">Renato G. Cuar</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio"></div>
+                </div>
+                <div class="member"><img src="https://via.placeholder.com/100">
+                    <div class="name">Ken Russell Z. Gellano</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio"></div>
+                </div>
+                <div class="member"><img src="https://via.placeholder.com/100">
+                    <div class="name">Ken Russell Z. Gellano</div>
+                    <div class="position">Instructor</div>
+                    <div class="bio"></div>
+                </div>
+            </div>
+        </details>
+
     </div>
 </body>
-</html>
 
+</html>
